@@ -33,7 +33,7 @@
                 android:textSize="20dp"
                 android:textStyle="bold"
                 android:background="#405120"
-                android:text="Plant Name"
+                android:text="@string/plantName"
                 android:textColor="@color/white"
                 android:textAlignment="center"/>
 
@@ -41,7 +41,7 @@
                 android:id="@+id/txtItemCountDown"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Countdown"
+                android:text="@string/toWater"
                 android:textColor="@color/white"
                 android:textAlignment="center"/>
         </LinearLayout>

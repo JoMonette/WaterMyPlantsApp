@@ -25,7 +25,7 @@
         android:layout_height="wrap_content"
         android:padding="20dp"
         android:textColorHint="@color/white"
-        android:hint="Name for plant"
+        android:hint="@string/plantName"
         android:background="@null"
         android:textAlignment="center"/>
 
@@ -33,7 +33,7 @@
         android:id="@+id/edtUpdateTxtPlantDescription"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Description of plant"
+        android:hint="@string/plantDescription"
         android:textColorHint="@color/white"
         android:padding="20dp"
         android:textAlignment="center"
@@ -43,7 +43,7 @@
         android:id="@+id/edtUpdateTxtTime"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Enter time, in hours, to water plant"
+        android:hint="@string/waterTimer"
         android:textColorHint="@color/white"
         android:textAlignment="center"
         android:padding="20dp"
@@ -57,7 +57,7 @@
         android:layout_height="wrap_content"
         android:textAlignment="center"
         android:textSize="20dp"
-        android:text="Update plant information"
+        android:text="@string/updatePlantBtn"
         android:layout_marginTop="50dp"/>
 
     <androidx.appcompat.widget.AppCompatButton
@@ -66,6 +66,6 @@
         android:layout_height="wrap_content"
         android:textAlignment="center"
         android:textSize="20dp"
-        android:text="Delete"
+        android:text="@string/updateDelPlantBtn"
         android:layout_marginTop="20dp" />
 </LinearLayout>

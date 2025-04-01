@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">WaterMyPlants</string>
+    <string name="plantName">Name for plant</string>
+    <string name="plantDescription">Description of plant</string>
+    <string name="waterTimer">Enter time, in hours, to water plant</string>
+    <string name="addPlantBtn">Add this plant</string>
+    <string name="updatePlantBtn">Update plant information</string>
+    <string name="updateDelPlantBtn">Delete</string>
+    <string name="toWater">Timer</string>
 </resources>
