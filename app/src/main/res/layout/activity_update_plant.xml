@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".update_plant"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="#487540">
+
+    <ImageView
+        android:id="@+id/updatePlantImgView"
+        android:layout_marginTop="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginBottom="100dp"
+        app:srcCompat="@drawable/add_picture_icon"
+        android:scaleType="fitCenter"/>
+
+    <EditText
+        android:id="@+id/edtUpdateTxtPlantName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:textColorHint="@color/white"
+        android:hint="Name for plant"
+        android:background="@null"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/edtUpdateTxtPlantDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Description of plant"
+        android:textColorHint="@color/white"
+        android:padding="20dp"
+        android:textAlignment="center"
+        android:background="@null"/>
+
+    <EditText
+        android:id="@+id/edtUpdateTxtTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter time, in hours, to water plant"
+        android:textColorHint="@color/white"
+        android:textAlignment="center"
+        android:padding="20dp"
+        android:ems="10"
+        android:inputType="time"
+        android:background="@null"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnUpdatePlant"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:text="Update plant information"
+        android:layout_marginTop="50dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnDelPlant"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:text="Delete"
+        android:layout_marginTop="20dp" />
+</LinearLayout>
